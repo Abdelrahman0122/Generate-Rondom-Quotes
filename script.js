@@ -1,3 +1,16 @@
+/*
+**  This is The js file
+**  for generate random quotes
+**  challange Created by 
+**  Abdelrahman Elsayed
+*/
+
+
+/* THis function is Responsible for generating Random Quotes
+**  by put the quots in array
+**  and a random function that generate random number between 0 and arr.length
+**  and we  print the otput inta a div
+*/
 function changeText() {
     let arr = ["“Be yourself; everyone else is already taken.”",
         "“So many books, so little time.”",
@@ -12,7 +25,7 @@ function changeText() {
 
 
 }
-
+// This function is Resposible for copy the text that we Generated to the user clipboard
 
 function copyFunction() {
     const copyText = document.getElementById("quote").textContent;
