@@ -15,9 +15,13 @@ function changeText() {
     let arr = ["“Be yourself; everyone else is already taken.”",
         "“So many books, so little time.”",
         "“A room without books is like a body without a soul.”",
-        "“You only live once, but if you do it right, once is enough.”"]
+        "“You only live once, but if you do it right, once is enough.”",
+    "“A day without sunshine is like, you know, night.”",
+    "“A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only one.”",
+        "“Never put off till tomorrow what may be done day after tomorrow just as well.”",
+      "“It is never too late to be what you might have been.”"]
 
-    let arr2 = ["― Mae West", "― Frank Zappa", "― Abdo", "― Marcus Tullius Cicero"]
+    let arr2 = ["― Mae West", "― Frank Zappa", "― Abdo", "― Marcus Tullius Cicero","― George Eliot", "― Mark Twain", "― George R.R. Martin, A Dance with Dragons","― Steve Martin"]
 
     let number = Math.floor(Math.random() * arr.length);
     document.getElementById('quote').innerHTML = arr[number];
